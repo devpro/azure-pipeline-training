@@ -11,7 +11,7 @@ namespace Dotnet5Sample.WebApi.Controllers
     [Route("weather-forecast")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        private static readonly string[] s_summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
@@ -26,12 +26,14 @@ namespace Dotnet5Sample.WebApi.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecastDto> Get()
         {
+            _logger.LogInformation("New weather forecast request");
+
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecastDto
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
+                Summary = s_summaries[rng.Next(s_summaries.Length)]
             })
             .ToArray();
         }
