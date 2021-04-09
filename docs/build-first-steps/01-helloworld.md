@@ -20,3 +20,7 @@ We'll build our first pipeline to display a custom "Hello World" message.
 ### Hints
 
 - In Ubuntu, the machine name can be displayed with the `hostname` command
+
+## Next
+
+Jump to next section: [2. Trigger](./02-trigger.md)

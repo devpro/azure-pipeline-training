@@ -46,6 +46,8 @@ _TODO: work in progress, started in April 2021_
 
 * [1. Hello world](./docs/build-first-steps/01-helloworld.md)
 * [2. Trigger](./docs/build-first-steps/02-trigger.md)
+* [3. Stage](./docs/build-first-steps/03-stage.md)
+* [4. .NET CI](./docs/build-first-steps/04-ci-dotnet.md)
 
 ## Build pipeline advanced steps - Intermediate tour
 

@@ -20,3 +20,7 @@ We focus here on the conditions to execute a pipeline, aka triggers.
 
 - In Ubuntu, the date can be displayed with the `date -u +'%Y-%m-%d %H:%M:%S'` command
 - Cron expression to have a process scheduled every start of hour: `0 */1 * * *`
+
+## Next
+
+Jump to next section: [3. Stage](./03-stage.md)
