@@ -19,4 +19,4 @@ We'll build our first pipeline to display a custom "Hello World" message.
 
 ### Hints
 
-- In Ubuntu, the machine name can be retrieved from the `hostname` command
+- In Ubuntu, the machine name can be displayed with the `hostname` command
