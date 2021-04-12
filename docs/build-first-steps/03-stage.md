@@ -4,7 +4,8 @@ We'll see the different levels of a pipeline definition.
 
 ## Documentation
 
-- [Add stages, dependencies & conditions](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/stages?view=azure-devops&tabs=yaml)
+- [Add stages, dependencies & conditions](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/stages)
+- [Publish and download artifacts in Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/artifacts/pipeline-artifacts)
 
 ## Exercise 03
 

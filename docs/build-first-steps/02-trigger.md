@@ -2,6 +2,12 @@
 
 We focus here on the conditions to execute a pipeline, aka triggers.
 
+## Documentation
+
+- [Specify events that trigger pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers)
+- [Build Azure Repos Git repositories > CI triggers](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/azure-repos-git)
+- [Configure schedules for pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/scheduled-triggers)
+
 ## Exercise 02
 
 ### Success criteria

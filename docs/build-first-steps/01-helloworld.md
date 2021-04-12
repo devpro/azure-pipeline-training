@@ -2,6 +2,11 @@
 
 We'll build our first pipeline to display a custom "Hello World" message.
 
+## Documentation
+
+- [Key concepts for new Azure Pipelines users](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts)
+- [Run cross-platform scripts](https://docs.microsoft.com/en-us/azure/devops/pipelines/scripts/cross-platform-scripting)
+
 ## Exercise 01
 
 ### Success criteria

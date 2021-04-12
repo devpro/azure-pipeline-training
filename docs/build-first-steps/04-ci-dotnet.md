@@ -2,7 +2,11 @@
 
 We'll now a concrete example of building a Continuous Integration pipeline from an existing .NET codebase (from `samples` folder).
 
-## Exercise 03
+## Documentation
+
+- [Build, test, and deploy .NET Core apps](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/dotnet-core)
+
+## Exercise 04
 
 ### Success criteria
 
