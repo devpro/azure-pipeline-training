@@ -11,16 +11,16 @@ We'll build our first pipeline to display a custom "Hello World" message.
 
 ### Success criteria
 
-- [ ] Create a new Azure Build pipeline named "01-helloworld" that will display "Hello from <machine_name>"
-- [ ] The pipeline must contain only one task, entitled "Say hello"
+- [ ] Create a new Azure Build pipeline named "01-helloworld"
 - [ ] Pipeline definition must be in the file `.azure/pipelines/01-helloworld.yml`
+- [ ] The pipeline must contain only one task, entitled "Say hello", that will display "Hello from <machine_name>"
 
 ### Tips
 
-- You are free to use any type of Microsoft hosted agent
-- Create a new branch on this repository to make your change
-- If you are on a shared project with other people, create a folder only for you (with your first name for example)
-- You can either use the default pipeline provided by Microsoft or do it from scratch
+- Work on a branch in git, create it if it doesn't exist
+- Isolate your pipelines in a dedicated folder (with your first name for example)
+- Use any type of Microsoft hosted agent
+- In the pipeline creation wizard, use a template or create it from scratch
 
 ### Hints
 

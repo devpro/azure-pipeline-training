@@ -46,8 +46,11 @@ _TODO: work in progress, started in April 2021_
 
 * [1. Hello world](./docs/build-first-steps/01-helloworld.md)
 * [2. Trigger](./docs/build-first-steps/02-trigger.md)
-* [3. Stage](./docs/build-first-steps/03-stage.md)
+* [3. Variable](./docs/build-first-steps/03-variable.md)
 * [4. .NET CI](./docs/build-first-steps/04-ci-dotnet.md)
+* [5. Angular CI](./docs/build-first-steps/05-ci-angular.md)
+* [6. Stage](./docs/build-first-steps/06-stage.md)
+* [7. Parameter](./docs/build-first-steps/07-parameter.md)
 
 ## Build pipeline advanced steps - Intermediate tour
 

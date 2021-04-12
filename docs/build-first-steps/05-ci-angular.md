@@ -1,19 +1,17 @@
-# .NET 5 continuous integration pipeline (first steps)
-
-We'll now a concrete example of building a Continuous Integration pipeline from an existing .NET codebase (from `samples` folder).
+# Angular continuous integration pipeline (first steps)
 
 ## Documentation
 
-- [Build, test, and deploy JavaScript and Node.js apps](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/javascript)
+- [Build, test and deploy JavaScript and Node.js apps](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/javascript)
 
-## Exercise 04
+## Exercise 02
 
 ### Success criteria
 
-- [ ] Create a new Azure Build pipeline named "04-dotnet5-ci"
-- [ ] Pipeline definition must be in the file `.azure/pipelines/04-dotnet5-ci.yml`
-- [ ] Pipeline must make sure .NET SDK 5.0 is installed
-- [ ] Pipeline should cover all checks to validate .NET code available in `samples/dotnet5` (restore NuGet packages, build the solution & run the tests)
+- [ ] Create a new Azure Build pipeline named "05-angular-ci"
+- [ ] Pipeline definition must be in the file `.azure/pipelines/05-angular-ci.yml`
+- [ ] Pipeline must make sure NPM is installed
+- [ ] Pipeline should cover all checks to validate .NET code available in `samples/angular` (restore NPM packages, lint & run the tests)
 - [ ] Every task must be done in distinct steps
 - [ ] No command line is authorized in this exercise, only use available tasks
 - [ ] All specific values must be defined as variables, no string duplication, no hard coded values in tasks
@@ -46,4 +44,4 @@ dotnet tests test/**/*Tests.csproj -c Debug --no-restore --no-build
 
 ## Next
 
-Jump to next section: [5. Angular CI](./05-ci-angular.md)
+Jump to next section: [6. Stage](./06-stage.md)

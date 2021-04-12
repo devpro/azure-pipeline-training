@@ -11,10 +11,12 @@ We'll see the different levels of a pipeline definition.
 
 ### Success criteria
 
-- [ ] Create a new Azure Build pipeline named "03-stage" that will display "Hello from Windows" from a Windows agent, then "Hello from Mac" from a Mac agent
-- [ ] Windows stage must create a non-empty file called `dummy.txt` that must be displayed by Mac stage
-- [ ] Windows stage must contain exactly three tasks and Mac stage two tasks
-- [ ] Pipeline definition must be in the file `.azure/pipelines/03-stage.yml`
+- [ ] Create a new Azure Build pipeline named "06-stage" that will display "Hello from Windows" from a Windows agent, then "Hello from Mac" from a Mac agent
+- [ ] Pipeline definition must be in the file `.azure/pipelines/06-stage.yml`
+- [ ] Windows stage must display "Hello from Windows" and create a non-empty file called `dummy.txt`
+- [ ] Windows stage must contain exactly three tasks
+- [ ] Mac stage must display "Hello from Mac" and read the content of the file `dummy.txt`
+- [ ] Mac stage must contain exactly two tasks
 
 ### Tips
 
@@ -39,4 +41,4 @@ stages:
 
 ## Next
 
-Jump to next section: [4. .NET CI](./04-ci-dotnet.md)
+Jump to next section: [7. Parameter](./07-parameter.md)
