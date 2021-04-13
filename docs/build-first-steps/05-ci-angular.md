@@ -27,19 +27,19 @@
 
 ```bash
 # go to sample directory
-cd samples/dotnet5
+cd samples/angular
 
-# should display 5.0.XXX
-dotnet version
+# install globally Angular CLI
+npm install -g @angular/cli
 
-# restore the NuGet packages used by the projects of the solution
-dotnet restore Dotnet5Sample.sln
+# restore NPM NuGet packages
+npm install
 
-# build the projects of the solution
-dotnet build Dotnet5Sample.sln --no-restore -c Debug
+# lint code
+ng lint
 
 # run tests
-dotnet tests test/**/*Tests.csproj -c Debug --no-restore --no-build
+ng test  --no-watch
 ```
 
 ## Next
