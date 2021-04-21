@@ -4,16 +4,18 @@ We'll the different of type of variables we can define and use.
 
 ## Documentation
 
-TODO: local variable, group variable (library), predefined variables
+- [Define variables](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch)
+- [Add & use variable groups](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/variable-groups)
+- [Use predefined variables](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables)
 
-## Exercise 02
+## Exercise 03
 
 ### Success criteria
 
 - [ ] Create a new Azure Build pipeline named "03-variable"
 - [ ] Pipeline definition must be in the file `.azure/pipelines/03-variable.yml`
-- [ ] Display the value of different variables storied in a Variable Group (create it if needed)
 - [ ] Use a local variable value in a task
+- [ ] Display a clear text value and a secret value from variables stored in a Variable Group (that you are free to create)
 - [ ] Use a predefined variable in a task
 
 ### Tips
