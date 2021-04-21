@@ -10,8 +10,8 @@
 
 - [ ] Create a new Azure Build pipeline named "05-angular-ci"
 - [ ] Pipeline definition must be in the file `.azure/pipelines/05-angular-ci.yml`
-- [ ] Pipeline must make sure NPM is installed
-- [ ] Pipeline should cover all checks to validate .NET code available in `samples/angular` (restore NPM packages, lint & run the tests)
+- [ ] Pipeline should ensure NPM is installed
+- [ ] Pipeline should validate JavaScript/TypeScript code in `samples/angular`: restore NPM packages, lint & run the tests
 - [ ] Every task must be done in distinct steps
 - [ ] No command line is authorized in this exercise, only use available tasks
 - [ ] All specific values must be defined as variables, no string duplication, no hard coded values in tasks
@@ -36,10 +36,10 @@ npm install -g @angular/cli
 npm install
 
 # lint code
-ng lint
+npm run lint
 
 # run tests
-ng test  --no-watch
+npm run test-once
 ```
 
 ## Next

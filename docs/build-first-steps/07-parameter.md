@@ -10,8 +10,8 @@ TODO: parameter
 
 - [ ] Create a new Azure Build pipeline named "07-parameter"
 - [ ] Pipeline definition must be in the file `.azure/pipelines/07-parameter.yml`
-- [ ] Add a boolean parameter that will condition the execution of a task, with a default value
-- [ ] Add a string parameter that will be used in a task
+- [ ] Add a boolean parameter, with a default value, that will be used to enable/skip a task
+- [ ] Add a string parameter, with a default value, that will be used in a task
 
 ### Tips
 

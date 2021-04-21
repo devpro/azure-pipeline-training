@@ -4,7 +4,7 @@ We'll now a concrete example of building a Continuous Integration pipeline from 
 
 ## Documentation
 
-- [Build, test, and deploy JavaScript and Node.js apps](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/javascript)
+- [Build, test, and deploy .NET Core apps](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/dotnet-core)
 
 ## Exercise 04
 
@@ -12,8 +12,8 @@ We'll now a concrete example of building a Continuous Integration pipeline from 
 
 - [ ] Create a new Azure Build pipeline named "04-dotnet5-ci"
 - [ ] Pipeline definition must be in the file `.azure/pipelines/04-dotnet5-ci.yml`
-- [ ] Pipeline must make sure .NET SDK 5.0 is installed
-- [ ] Pipeline should cover all checks to validate .NET code available in `samples/dotnet5` (restore NuGet packages, build the solution & run the tests)
+- [ ] Pipeline should ensure .NET SDK 5.0.x is installed
+- [ ] Pipeline should validate .NET code in `samples/dotnet5`: restore NuGet packages, build the solution & run the tests
 - [ ] Every task must be done in distinct steps
 - [ ] No command line is authorized in this exercise, only use available tasks
 - [ ] All specific values must be defined as variables, no string duplication, no hard coded values in tasks
