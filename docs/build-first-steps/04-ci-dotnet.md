@@ -10,13 +10,13 @@ We'll now a concrete example of building a Continuous Integration pipeline from 
 
 ### Success criteria
 
-- [ ] Create a new Azure Build pipeline named "04-dotnet5-ci"
-- [ ] Pipeline definition must be in the file `.azure/pipelines/04-dotnet5-ci.yml`
+- [ ] Create a new file `.azure/pipelines/04-dotnet5-ci.yml`
 - [ ] Pipeline should ensure .NET SDK 5.0.x is installed
 - [ ] Pipeline should validate .NET code in `samples/dotnet5`: restore NuGet packages, build the solution & run the tests
 - [ ] Every task must be done in distinct steps
 - [ ] No command line is authorized in this exercise, only use available tasks
 - [ ] All specific values must be defined as variables, no string duplication, no hard coded values in tasks
+- [ ] Create a new Azure Build pipeline in your folder and rename it to "04-dotnet5-ci"
 
 ### Tips
 

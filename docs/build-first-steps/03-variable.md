@@ -12,11 +12,11 @@ We'll the different of type of variables we can define and use.
 
 ### Success criteria
 
-- [ ] Create a new Azure Build pipeline named "03-variable"
-- [ ] Pipeline definition must be in the file `.azure/pipelines/03-variable.yml`
+- [ ] Create a new file `.azure/pipelines/03-variable.yml`
 - [ ] Use a local variable value in a task
 - [ ] Display a clear text value and a secret value from variables stored in a Variable Group (that you are free to create)
 - [ ] Use a predefined variable in a task
+- [ ] Create a new Azure Build pipeline in your folder and rename it to "03-variable"
 
 ### Tips
 

@@ -4,17 +4,17 @@
 
 - [Build, test and deploy JavaScript and Node.js apps](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/javascript)
 
-## Exercise 02
+## Exercise 05
 
 ### Success criteria
 
-- [ ] Create a new Azure Build pipeline named "05-angular-ci"
-- [ ] Pipeline definition must be in the file `.azure/pipelines/05-angular-ci.yml`
+- [ ] Create a new file `.azure/pipelines/05-angular-ci.yml`
 - [ ] Pipeline should ensure NPM is installed
 - [ ] Pipeline should validate JavaScript/TypeScript code in `samples/angular`: restore NPM packages, lint & run the tests
 - [ ] Every task must be done in distinct steps
 - [ ] No command line is authorized in this exercise, only use available tasks
 - [ ] All specific values must be defined as variables, no string duplication, no hard coded values in tasks
+- [ ] Create a new Azure Build pipeline in your folder and rename it to "05-angular-ci"
 
 ### Tips
 

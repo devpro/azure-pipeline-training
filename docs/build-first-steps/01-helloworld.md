@@ -11,9 +11,9 @@ We'll build our first pipeline to display a custom "Hello World" message.
 
 ### Success criteria
 
-- [ ] Create a new Azure Build pipeline named "01-helloworld"
-- [ ] Pipeline definition must be in the file `.azure/pipelines/01-helloworld.yml`
+- [ ] Create a new file `.azure/pipelines/01-helloworld.yml`
 - [ ] The pipeline must contain only one task, entitled "Say hello", that will display "Hello from <machine_name>"
+- [ ] Create a new Azure Build pipeline in your folder and rename it to "01-helloworld"
 
 ### Tips
 
