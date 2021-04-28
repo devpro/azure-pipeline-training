@@ -21,6 +21,7 @@ We'll build our first pipeline to display a custom "Hello World" message.
 - Isolate your pipelines in a dedicated folder (with your first name for example)
 - Use any type of Microsoft hosted agent
 - In the pipeline creation wizard, use a template or create it from scratch
+- Always add `trigger` at the top of the file to not use the default behavior, explicitly define the wished behavior (just put `trigger: none` to prevent a commit on your branch to prevent a new run)
 
 ### Hints
 
