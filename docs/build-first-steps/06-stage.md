@@ -11,12 +11,12 @@ We'll see the different levels of a pipeline definition.
 
 ### Success criteria
 
-- [ ] Create a new Azure Build pipeline named "06-stage"
-- [ ] Pipeline definition must be in the file `.azure/pipelines/06-stage.yml`
+- [ ] Create a new file `.azure/pipelines/06-stage.yml`
 - [ ] Windows stage must display "Hello from Windows" and create a non-empty file called `dummy.txt`
 - [ ] Windows stage must contain exactly three tasks
 - [ ] Mac stage must display "Hello from Mac" and read the content of the file `dummy.txt`
 - [ ] Mac stage must contain exactly two tasks
+- [ ] Create a new Azure Build pipeline in your folder and rename it to "06-stage"
 
 ### Tips
 

@@ -39,7 +39,7 @@ npm install
 npm run lint
 
 # run tests
-npm run test-once
+npm run test-ci
 ```
 
 ## Next
