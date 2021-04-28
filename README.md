@@ -18,17 +18,20 @@ The knowledge you'll gather here will help you get better at CI tools in general
 
 ### Azure DevOps account
 
-* You'll need access to an Azure DevOps project with permissions to create pipelines.
+* You'll need access to an Azure DevOps project with permissions to create pipelines
 
-* You can create a organization for free at this address: [**dev.azure.com**](https://dev.azure.com/). All you need is an account registered in Microsoft, which can be made from a non-Microsoft email adress (gmail or yahoo for example).
+* You can create a organization for free at this address: [**dev.azure.com**](https://dev.azure.com/)
+  * All you need is an account registered in Microsoft, which can be made from a non-Microsoft email adress (gmail or yahoo for example)
+  * You may have to make a request for the free build minutes, see [Changes to Azure Pipelines free grants](https://docs.microsoft.com/en-us/azure/devops/release-notes/2021/sprint-184-update)
 
 ### Software
 
-* You can create & edit pipelines directly in Azure DevOps web UI but it can be nice to also edit the yaml files locally on your workstation. In that case, it is recommended to use an IDE such as [Visual Studio Code](https://code.visualstudio.com/) (with extensions such as `EditorConfig for VS Code` by EditorConfig, `YAML` by Red Hat).
+* You can create & edit pipelines directly in Azure DevOps web UI but it can be nice to also edit the yaml files locally on your workstation
+  * An IDE such as [Visual Studio Code](https://code.visualstudio.com/) provides interesting extensions such as `EditorConfig for VS Code` by EditorConfig and `YAML` by Red Hat
 
-* You can be more efficient with the right git client, such as [GitKraken](https://www.gitkraken.com/).
+* You can be more efficient with the right git client, such as [GitKraken](https://www.gitkraken.com/)
 
-* For .NET code, it will be more convenient to work with [Visual Studio 2019](https://visualstudio.microsoft.com/) if you're on Windows (or [JetBrains Rider](https://www.jetbrains.com/rider/) if you're on Linux or Mac).
+* For .NET code, it will be more convenient to work with [Visual Studio 2019](https://visualstudio.microsoft.com/) if you're on Windows (or [JetBrains Rider](https://www.jetbrains.com/rider/) if you're on Linux or Mac)
 
 ## Tips
 
@@ -42,8 +45,6 @@ The knowledge you'll gather here will help you get better at CI tools in general
 
 ## Build pipeline first steps - Beginner tour
 
-_TODO: work in progress, started in April 2021_
-
 * [1. Hello world](./docs/build-first-steps/01-helloworld.md)
 * [2. Trigger](./docs/build-first-steps/02-trigger.md)
 * [3. Variable](./docs/build-first-steps/03-variable.md)
@@ -54,4 +55,4 @@ _TODO: work in progress, started in April 2021_
 
 ## Build pipeline advanced steps - Intermediate tour
 
-_TODO: work to be started in May 2021_
+_TODO: work to be started in May/June 2021_
