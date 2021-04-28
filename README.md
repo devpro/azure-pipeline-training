@@ -20,9 +20,9 @@ The knowledge you'll gather here will help you get better at CI tools in general
 
 * You'll need access to an Azure DevOps project with permissions to create pipelines
 
-* You can create a organization for free at this address: [**dev.azure.com**](https://dev.azure.com/)
-  * All you need is an account registered in Microsoft, which can be made from a non-Microsoft email adress (gmail or yahoo for example)
-  * You may have to make a request for the free build minutes, see [Changes to Azure Pipelines free grants](https://docs.microsoft.com/en-us/azure/devops/release-notes/2021/sprint-184-update)
+* You can create an organization for free at [**dev.azure.com**](https://dev.azure.com/)
+  * All you need is a Microsoft account, which can be created from a non-Microsoft email adress (gmail or yahoo for example)
+  * You may have to make a request for the free build minutes, see [Changes to Azure Pipelines free grants](https://docs.microsoft.com/en-us/azure/devops/release-notes/2021/sprint-184-update) (can take several days)
 
 ### Software
 
